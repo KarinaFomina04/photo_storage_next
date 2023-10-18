@@ -12,7 +12,7 @@ export const options: NextAuthOptions = {
                    username: string;
                    password: string;
                }
-               if (username === 'test' && password === 'test') return {} as User
+               if (username === process.env.NEXT_PUBLIC_USERNAME && password === process.env.NEXT_PUBLIC_PASSWORD) return {} as User
                return null
            }
        })
