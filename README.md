@@ -4,9 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ❗❗❗Authorization:
 
-Login: test
+Login: admin
 
-Password: test
+Password: admin
 
 
 
